@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Entwurf der Datenschutzhinweise für TEAMIO</title>
+<style>
+:root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5a5a60; --line: #d8d8de; --draft-bg: #fff4e5; --draft-line: #e0a040; --mark-bg: #ffe08a; --mark-fg: #3d2b00; --link: #0b57d0; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121214; --fg: #ececf0; --muted: #a8a8b0; --line: #34343a; --draft-bg: #2e2412; --draft-line: #b07a20; --mark-bg: #6b5410; --mark-fg: #fff3cc; --link: #8ab4f8; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 1rem; }
+h2 { font-size: 1.25rem; margin: 2.2rem 0 .6rem; padding-top: .6rem; border-top: 1px solid var(--line); }
+h3 { font-size: 1.08rem; margin: 1.6rem 0 .4rem; }
+p, ul { margin: 0 0 .9rem; }
+ul { padding-left: 1.3rem; }
+li { margin-bottom: .35rem; }
+a { color: var(--link); }
+.draft { background: var(--draft-bg); border-left: 4px solid var(--draft-line); padding: .8rem 1rem; margin: 0 0 1.5rem; border-radius: 4px; }
+mark.offen { background: var(--mark-bg); color: var(--mark-fg); padding: .05rem .3rem; border-radius: 3px; font-weight: 600; overflow-wrap: anywhere; }
+code { font-family: ui-monospace, Consolas, monospace; font-size: .92em; overflow-wrap: anywhere; }
+.table { overflow-x: auto; margin: 0 0 1rem; }
+table { border-collapse: collapse; width: 100%; font-size: .94rem; }
+th, td { text-align: left; vertical-align: top; padding: .45rem .55rem; border: 1px solid var(--line); }
+th { background: color-mix(in srgb, var(--line) 40%, transparent); }
+footer { color: var(--muted); font-size: .88rem; margin-top: 2.5rem; }
+</style>
+</head>
+<body>
+<main>
+<h1 id="entwurf-der-datenschutzhinweise-für-teamio">Entwurf der Datenschutzhinweise für TEAMIO</h1>
+<aside class="draft"><strong>ARBEITSSTAND FÜR DIE ANDROID-TESTPHASE · VOM VEREIN NOCH NICHT FREIGEGEBEN</strong> Version 0.3, Stand 14.10.2026. Rechtsträger, Anschrift, Datenschutzkontakt, Rechtsgrundlagen und Empfänger sind noch offen und gelb markiert. Diese Fassung beschreibt den Arbeitsstand der begrenzten Android-Testphase; die rechtlich geprüfte und vom Verantwortlichen freigegebene Fassung ersetzt sie. Dieser Entwurf ist keine Rechtsberatung und sichert keine Rechtskonformität zu.</aside>
+<h2 id="1-wer-ist-verantwortlich">1. Wer ist verantwortlich?</h2>
+<p>Verantwortlich für die Verarbeitung wäre:</p>
+<p><mark class="offen">[OFFEN: vollständiger Rechtsträger]</mark></p>
+<p><mark class="offen">[OFFEN: Rechtsform und ladungsfähige Anschrift]</mark></p>
+<p><mark class="offen">[OFFEN: vertretungsberechtigte Stelle]</mark></p>
+<p>Die Bezeichnung SVA beschreibt derzeit nur das vorgesehene Modell. Sie ist kein Nachweis des vollständigen Rechtsträgers oder eines Vereinsmandats.</p>
+<p>Datenschutzkontakt: <mark class="offen">[OFFEN: tatsächlich betreute Kontaktadresse]</mark></p>
+<p>Datenschutzbeauftragte/r: <mark class="offen">[OFFEN: Benennungspflicht prüfen; falls benannt, Kontakt eintragen]</mark></p>
+<h2 id="2-wofür-verarbeitet-teamio-daten">2. Wofür verarbeitet TEAMIO Daten?</h2>
+<p>TEAMIO soll eingeladene Jugendfußballteams bei folgenden Aufgaben unterstützen:</p>
+<ul><li>Einladung, Anmeldung und sichere Kontoverwaltung;</li><li>Verwaltung von Spielerinnenprofilen, Team- und Saisonmitgliedschaften sowie ausdrücklichen Elternverknüpfungen;</li><li>Planung von Terminen und Rückmeldungen;</li><li>Anreise zu Auswärtsterminen: ob ein Kind direkt zum Spielort oder zum Vereinsort kommt, und freie Plätze, die Eltern für die Fahrt ab Vereinsort anbieten (nur eine Bilanz, keine Platzbuchung oder Fahrerzuteilung);</li><li>Aufgaben zu einem Termin, etwa Trikotwäsche oder MVP-Maskottchen, die verknüpfte Eltern für ihr Kind übernehmen, ablehnen oder als erledigt markieren;</li><li>Kader, Nachrückangebote und tatsächliche Anwesenheit;</li><li>begrenzte Auszeichnungen und erklärbare Sportstatistik;</li><li>private Profilbilder und notwendige private Terminanhänge;</li><li>persönliche Inbox und, nur nach gesonderter Entscheidung, optionale Push- oder E-Mail-Hinweise;</li><li>einmaliger geprüfter Import aus der bisherigen Arbeitsquelle;</li><li>Bearbeitung von Datenschutzrechten, Zugriffssicherheit, Löschung sowie gesicherte Wiederherstellung.</li></ul>
+<p>Für die Android-Testphase kommen vier Zusatzmodule hinzu, die jeweils über einen eigenen serverseitigen Modulschalter eingeschaltet werden: Messenger, erweiterte Aufgaben und Automationen, Mannschaftskasse und Leistungsstatistik. Zweck, Daten, Sichtbarkeit und Fristen dieser Module beschreibt Abschnitt 13.</p>
+<p>Gesundheitsangaben, Absagegründe, Werbung, Tracking, Kontaktbuchimporte, Standortverfolgung und öffentliche Ranglisten gehören nicht zum Pilot.</p>
+<h2 id="3-welche-daten-werden-verarbeitet">3. Welche Daten werden verarbeitet?</h2>
+<p>Je nach Rolle und Nutzung sind vorgesehen:</p>
+<ul><li>Name, E-Mail-Adresse und Authentifizierungsdaten des Kontos;</li><li>Vorname, Nachname und Geburtsjahr einer Spielerin;</li><li>Team- und Saisonmitgliedschaften, Rollen und Elternverknüpfungen;</li><li>Termine, feste Teilnehmerkreise und Rückmeldungen ohne Gründe;</li><li>Anreise je Zusage zu einem Auswärtstermin (direkt zum Spielort oder zum Vereinsort) und angebotene freie Plätze je Elternkonto und Termin, ohne Adressen, Fahrzeuge oder Mitfahrerlisten;</li><li>Aufgaben je Spielerin und Termin mit Titel, Zuweisung an verknüpfte Elternkonten, Stand (offen, übernommen, abgelehnt, erledigt), Zeitpunkten und handelndem Konto;</li><li>Kaderstatus, Nachrückentscheidungen und tatsächliche Anwesenheit;</li><li>Kapitäninnen-/MVP-Auswahl und begrenzte, erklärbare Zähler;</li><li>freiwillige private Profilbilder sowie notwendige private Bilder/PDFs zu Terminen;</li><li>inhaltsarme Inbox-, Zustell-, Sicherheits- und Auditdaten;</li><li>bei Offline-Anwesenheit nur nötige Namen/IDs, Termin/Kader und Anwesenheitswerte auf einem kontrollierten, verschlüsselten Gerät.</li></ul>
+<p>Ein vollständiges Geburtsdatum wird für den Pilot nicht verlangt. Eine Rückmeldung, eine Nominierung und die tatsächliche Teilnahme sind verschiedene Informationen und werden nicht voneinander abgeleitet. Auch Anreise, Platzangebote und Aufgaben beeinflussen Kader und Anwesenheit nicht. Andere Eltern sehen die Platzbilanz und anonyme Platzangebote, aber nicht, welche fremden Kinder ab Vereinsort mitfahren; Aufgaben sehen nur Trainer und Admins des Teams sowie die verknüpften Eltern des Kindes.</p>
+<h2 id="4-woher-stammen-die-daten">4. Woher stammen die Daten?</h2>
+<p>Daten stammen grundsätzlich von der betroffenen Person, einer berechtigten Betreuungsperson oder einem berechtigten Admin/Trainer.</p>
+<p>Für den einmaligen Import können Daten indirekt aus bisherigen, kontrolliert geprüften Organisationsquellen stammen. Vor dem Import müssen hier die tatsächlichen Quellen genannt werden:</p>
+<p><mark class="offen">[OFFEN: konkrete Excel-Datei/Arbeitsliste, verantwortliche Herkunft und Stichtag]</mark></p>
+<p><mark class="offen">[OFFEN: gegebenenfalls manuell geprüfter Anwesenheitslisten- oder WhatsApp-Umfragekontext]</mark></p>
+<p>Es gibt keine laufende Excel- oder WhatsApp-Synchronisation. Formeln, Gesundheitsangaben, freie Chattexte, ungeklärte Personen und nicht belegte Statuswerte werden nicht importiert. Mehrdeutige Werte bleiben ungeklärt.</p>
+<h2 id="5-auf-welcher-rechtsgrundlage">5. Auf welcher Rechtsgrundlage?</h2>
+<p><strong>Dieser Abschnitt ist rechtlich nicht freigegeben.</strong> Für notwendige Mitglieds- und Sportorganisation kommt Art. 6 Abs. 1 lit. b DSGVO in Betracht, soweit die konkrete Verarbeitung tatsächlich für das bestätigte Mitgliedschaftsverhältnis erforderlich ist. Für Eltern-/Trainerkonten, Sicherheitsmaßnahmen oder bestimmte Teamansichten kann Art. 6 Abs. 1 lit. f DSGVO in Betracht kommen; dafür muss der Verantwortliche die Interessen einschließlich der besonderen Interessen von Kindern dokumentiert abwägen.</p>
+<p>Freiwillige Profilbilder sollen nur auf einer gesonderten, nachweisbaren und jederzeit widerrufbaren Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO beruhen. Optionale externe Benachrichtigungskanäle benötigen eine eigene bestätigte Einordnung.</p>
+<p>Für Anreise und Platzangebote (P19) sowie Aufgaben (P20) ist als Entwurf vorgesehen: Anreise und Aufgabe als Teil der notwendigen Terminorganisation möglicherweise Art. 6 Abs. 1 lit. b DSGVO; das Platzangebot eines Elternkontos, die gemeinsame Bilanz und die Zuweisung an Elternkonten möglicherweise Art. 6 Abs. 1 lit. f DSGVO nach dokumentierter Abwägung. Diese Einordnung ist ein Vorschlag zur Prüfung durch den Verantwortlichen und nicht freigegeben. Rechtsgrundlage und berechtigtes Interesse sind für jeden Zweck vor Veröffentlichung konkret einzutragen.</p>
+<h2 id="6-wer-darf-daten-sehen">6. Wer darf Daten sehen?</h2>
+<p>Admins und Trainer sehen Daten nur im Rahmen ihrer Aufgaben und berechtigten Teams. Individuelle Sporthistorie sehen Eltern nur für ausdrücklich freigegebene Kinder im jeweiligen Team und Spielerinnen nur für sich selbst in ausdrücklich aktivierten Teams. Eine gemeinsame Spielerinnenidentität öffnet keine teamübergreifende Suche oder fremde Mitgliedschaft.</p>
+<p>Die private Einzelprofilansicht mit Spielerinnenkontakten und Geburtsjahr ist nur der Spielerin selbst und aktuellen Teamadmins zugänglich. Admins und Trainer erhalten notwendige Teamkontakte über eine getrennte Ansicht ohne Geburtsjahr. Eine Elternverknüpfung allein öffnet weder private Kontaktdaten noch das Geburtsjahr des Kindes.</p>
+<p>Eltern und Spielerinnen können im berechtigten Teilnehmerkreis die aktuelle Terminübersicht mit zugesagt/abgesagt/keine Antwort sehen, ohne Absagegründe. Fremde historische Absage- oder Fehlzeitenlisten sind nicht sichtbar. Die Erforderlichkeit dieser gemeinsamen aktuellen Ansicht ist vor Freigabe zu begründen. Familien sehen bei Kaderentscheidungen nur den eigenen Status. Ein veröffentlichter nominierter Kader kann im berechtigten Teilnehmerkreis sichtbar sein; Abruf- und Nichtnominiertlisten anderer Familien bleiben intern. Kontaktdaten, Geburtsjahr, individuelle Quoten und Fehlzeitenhistorie anderer Familien sind nicht sichtbar.</p>
+<p>Bei archivierten Teams bleibt Historie ausschließlich innerhalb bestehender Berechtigungen und Aufbewahrungsfristen lesbar; daraus entstehen keine neuen Zugriffsrechte oder aktiven Fachvorgänge.</p>
+<p>Ein technischer Betreiber darf nur aufgrund eines dokumentierten Auftrags und einer getrennten Berechtigung zugreifen. Beides ist derzeit <strong>offen</strong>.</p>
+<h2 id="7-welche-dienstleister-erhalten-daten">7. Welche Dienstleister erhalten Daten?</h2>
+<p><strong>Empfänger und Verträge sind noch nicht freigegeben.</strong> Vorgesehen sind eine technische Plattform für Authentifizierung, Datenbank, private Dateien und Serverfunktionen, ein kontrollierter Transaktionsmaildienst und optional Pushanbieter. Die Primärregion der technischen Plattform soll ausdrücklich Frankfurt <code>eu-central-1</code> sein. Dies schließt mögliche globale Gateway-, Log-, Support- oder Unterauftragnehmerflüsse nicht aus.</p>
+<p>Vor Veröffentlichung sind einzutragen:</p>
+<ul><li><mark class="offen">[OFFEN: tatsächlicher Hostinganbieter, Vertragspartei, DPA-Version]</mark></li><li><mark class="offen">[OFFEN: Unterauftragnehmer, Datenorte, Transfermechanismen]</mark></li><li><mark class="offen">[OFFEN: SMTP-Anbieter, Domain, Trackingfreiheit und Logfrist]</mark></li><li><mark class="offen">[OFFEN: optionale Pushanbieter und Löschfristen]</mark></li><li><mark class="offen">[OFFEN: kontrollierter Backupspeicher]</mark></li></ul>
+<p>Es erfolgt keine Freigabe allein aufgrund einer EU-Region, eines SCC-Textes oder einer Anbieterwerbung.</p>
+<p>Nach dem vorgesehenen Betriebsmodell startet der Pilot ohne Push und ohne Mailversand; als Dienstleister sind nur Supabase und GitHub (verschlüsseltes Backup) vorgesehen (ADR 0013). Die Zusatzmodule aus Abschnitt 13 nutzen keine weiteren Dienstleister. <mark class="offen">[OFFEN: Liste oben mit dem Betriebsmodell aus ADR 0013 abgleichen]</mark></p>
+<h2 id="8-wie-lange-bleiben-daten-gespeichert">8. Wie lange bleiben Daten gespeichert?</h2>
+<p>Die folgenden vorgesehenen Fristen sind Produktdefaults und keine gesetzlichen Mindestfristen. Ein früherer Zweckwegfall oder berechtigter Löschanspruch geht vor:</p>
+<div class="table"><table>
+<thead><tr><th scope="col">Daten</th><th scope="col">Vorgesehene Grenze</th></tr></thead>
+<tbody>
+<tr><td>Offline-Cache</td><td>höchstens 24 Stunden seit Rechteprüfung; Löschung bei Logout oder bekanntem Rechteentzug; auf ausgeschaltetem Gerät erst beim nächsten Start sicher ausführbar</td></tr>
+<tr><td>Einladungen</td><td>Token sieben Tage; personenbezogener Rest spätestens 30 Tage nach Ablauf oder Erledigung</td></tr>
+<tr><td>Technische Logs</td><td>14 Tage, ohne Nutzinhalte, Tokens oder vollständige Profile</td></tr>
+<tr><td>Sicherheits-/Berechtigungsaudit</td><td>grundsätzlich 90 Tage; begründete Vorfallsdaten getrennt und befristet</td></tr>
+<tr><td>Rohimport und Prüflisten</td><td>30 Tage nach abgenommenem Import</td></tr>
+<tr><td>Sportdaten</td><td>Saisonende plus zwölf Monate; früher spätestens 90 Tage nach letztem Teamaustritt beim Verantwortlichen</td></tr>
+<tr><td>Kontakte, Bilder, Team-/Elternverknüpfungen</td><td>nach Zweckende; höchstens 30 Tage begründete Abwicklung</td></tr>
+<tr><td>Eigene Backups</td><td>14 rollierende Tage</td></tr>
+</tbody></table></div>
+<p>Die Fristen der Zusatzmodule stehen in Abschnitt 13. Die Mannschaftskasse folgt dabei nicht den Sportdatenfristen, sondern getrennten steuerlichen Fristen.</p>
+<p>Sicherungen altern nach ihrem festen Ablauf aus. Eine sofortige physische Löschung aus allen Anbieterbackups wird nicht zugesagt. Nach einer Wiederherstellung muss ein minimales Löschregister angewandt werden, bevor Nutzer wieder zugreifen.</p>
+<h2 id="9-profilbilder-und-widerruf">9. Profilbilder und Widerruf</h2>
+<p>Ein Profilbild ist freiwillig. Initialen sind eine gleichwertige Alternative; ohne Bild bleiben Mitgliedschaft und Kernfunktionen unverändert. Das Bild ist privat und darf nicht für Werbung oder öffentliche Profile verwendet werden.</p>
+<p>Die Einwilligung kann jederzeit über <mark class="offen">[OFFEN: konkreter App- und Kontaktweg]</mark> widerrufen werden. Nach Widerruf zeigt TEAMIO sofort Initialen. Die Originaldatei und gegebenenfalls abgeleitete Versionen werden zur wiederholbaren physischen Löschung vorgemerkt. Die Rechtmäßigkeit der Verarbeitung bis zum Widerruf bleibt unberührt.</p>
+<h2 id="10-welche-rechte-bestehen">10. Welche Rechte bestehen?</h2>
+<p>Betroffene Personen können insbesondere Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und gegebenenfalls Datenübertragbarkeit verlangen sowie einer auf berechtigte Interessen gestützten Verarbeitung widersprechen. Eine Einwilligung kann jederzeit widerrufen werden. Außerdem besteht ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde.</p>
+<p>Anfragen gehen an <mark class="offen">[OFFEN: Datenschutzkontakt]</mark>. Sie werden grundsätzlich innerhalb eines Monats beantwortet. Nur bei entsprechender Komplexität oder Anzahl kann die Frist um bis zu zwei Monate verlängert werden; darüber und über die Gründe wird innerhalb des ersten Monats informiert.</p>
+<p>Identität und Vertretungsbefugnis werden angemessen geprüft. Ein Export enthält keine Daten anderer Kinder oder Eltern. Die Löschung eines Benutzerkontos, das Ende einer Elternverknüpfung und die Löschung von Kinddaten sind unterschiedliche Vorgänge und werden getrennt geprüft. Was eine Auskunft zu den Zusatzmodulen enthält, steht jeweils in Abschnitt 13.</p>
+<p>Zuständige Aufsicht: <mark class="offen">[OFFEN: nach Bestätigung des Rechtsträgers bestimmen und Kontaktdaten eintragen]</mark></p>
+<h2 id="11-automatisierte-entscheidungen">11. Automatisierte Entscheidungen</h2>
+<p>Es sind keine ausschließlich automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung vorgesehen. TEAMIO berechnet keine Teilnahme aus einer Zusage und nominiert keine Spielerin automatisch. Trainer treffen sportliche Entscheidungen; sichtbare Zähler und Hinweise sind begrenzt und erklärbar. Aufgaben-Automationen legen nur nach einer festen Liste von Auslösern Aufgaben an; Leistungsdaten ergeben keine Rangliste, Note oder Prognose (Abschnitt 13).</p>
+<h2 id="12-sicherheit-und-grenzen">12. Sicherheit und Grenzen</h2>
+<p>Vorgesehen sind serverseitige Team-/Familiengrenzen, private Dateien, Verschlüsselung des begrenzten Offline-Bestands, kurze Aufbewahrung, minimale Logs, wiederholbare Löschung und verschlüsselte Backups. Ein vollständig offline befindliches oder ausgeschaltetes Gerät kann nicht sofort aus der Ferne gelöscht werden. Kostenfreies Hosting ist keine Garantie für Verfügbarkeit.</p>
+<p>Die tatsächliche Wirksamkeit, Backup-/Restore-Übung, Providerverträge, Geräteabnahme und regelmäßigen Löschjobs sind <strong>offen</strong>. Solange sie und die übrigen Governance-Gates fehlen, dürfen keine echten Pilotdaten verarbeitet und diese Hinweise nicht veröffentlicht werden.</p>
+<h2 id="13-zusatzmodule-der-android-testphase">13. Zusatzmodule der Android-Testphase</h2>
+<p>Die folgenden Module sind über serverseitige Modulschalter standardmäßig ausgeschaltet. Für echte Daten setzen sie jeweils ein eigenes Gate „Freigabe echter Daten“ voraus: Messenger #183, Aufgaben-Ausbau #184, Mannschaftskasse #185, Leistungsstatistik #186. Ist ein Modul aus, weist der Server seine Funktionen ab und die App blendet den Bereich aus.</p>
+<p>Als Rechtsgrundlage sieht das Betriebsmodell allgemein Art. 6 Abs. 1 lit. b DSGVO über Satzung oder Datenschutzordnung vor (ADR 0013). Die Zweckanalyse in Verarbeitungszwecke umfasst bisher nur P01–P20 und keinen Zweck dieser Module. Die Angaben zur Rechtsgrundlage unten sind deshalb Entwurf und nicht freigegeben.</p>
+<p><mark class="offen">[OFFEN: Zweck-IDs, Rechtsgrundlagen und gegebenenfalls Interessenabwägungen für die vier Module in den Verarbeitungszwecken und im Verarbeitungsverzeichnis ergänzen]</mark></p>
+<p><mark class="offen">[OFFEN: Risiko-/DSFA-Vorprüfung je Modul (Gates #183–#186) vor echten Daten]</mark></p>
+<h3 id="13-1-messenger">13.1 Messenger</h3>
+<p><strong>Zweck:</strong> Kommunikation im Team in Kanälen je Team und Saison, ergänzend zur Terminorganisation, ohne freie private Kontakte.</p>
+<p><strong>Daten:</strong> Nachrichten mit Text, Bildern und Dateien/PDFs samt Dateimetadaten; keine Sprachnachrichten. Dazu Kanalmitgliedschaften und Gruppenzeiträume, Erwähnungen, Lesebestätigungen (nur bei Ankündigungen), Stummschaltungen, Lesestände je Kanal für die Ungelesen-Zähler, Meldungen, ein Moderations-Audit („Nachricht gelöscht“, wer, wann; kein Inhalt), Chat-Hinweise ohne Text, Namen oder Datei sowie bei Direktchats die Prüfentscheidung „Elternzugriff fortsetzen?“ bei Volljährigkeit.</p>
+<p><strong>Herkunft:</strong> Nachrichten stammen von den schreibenden Mitgliedern. Die Mitgliedschaft in Kanälen leitet der Server aus aktuellen Teamrollen, Saisonmitgliedschaften und Elternverknüpfungen ab. Moderations- und Prüfentscheidungen treffen Admins oder Trainer.</p>
+<p><strong>Rechtsgrundlage (Entwurf):</strong> <mark class="offen">[OFFEN: Rechtsgrundlage für den Messenger bestimmen]</mark></p>
+<p><strong>Wer sieht was:</strong></p>
+<ul><li>Kanäle: Ankündigungen schreiben nur Admins und Trainer, alle aktuellen Mitglieder der Saison lesen sie. In Team-, Eltern- und Spielerinnenkanal schreibt die jeweilige Zielgruppe plus Trainer, im Trainerkanal nur Trainer. Im Terminchat schreiben Teilnehmer und Trainer; Teilnehmer sind die Spielerinnen des Teilnehmerkreises mit eigenem Konto und ihre berechtigten Eltern. Admins lesen alle Kanäle ihres Teams und schreiben nur in Ankündigungen.</li><li>Saisonkanäle zeigen aktuellen Mitgliedern die ganze Saisonhistorie. Dynamische Gruppen zeigen neuen Mitgliedern nur Nachrichten ab ihrem Eintritt. Ein Rechteentzug wirkt sofort.</li><li>Direktchats beginnen nur Trainer, mit Eltern oder Spielerinnen. Bei minderjährigen Spielerinnen sind die berechtigten Eltern im selben Verlauf; ohne mindestens einen verknüpften, unstrittigen Elternteil entsteht kein Direktchat. Ein unklarer Altersstatus gilt als minderjährig. Freie Eltern-Eltern- oder Spielerin-Spielerin-Chats gibt es nicht.</li><li>Lesebestätigungen gibt ein Mitglied ausdrücklich ab; sehen können sie nur Admins und Trainer des Kanals.</li><li>Den Lesestand eines Kanals (bis zu welcher Nachricht jemand gelesen hat) setzt die App beim Öffnen des Kanals für die Ungelesen-Zähler. Er enthält keine Lesezeit und ist nur für die Person selbst sichtbar, auch nicht für Admins oder Trainer.</li><li>Gemeldete Nachrichten prüfen Admins und Trainer des Teams. Im Direktchat geht die Meldung an einen Admin, der nicht Partei ist, ersatzweise an Trainer, die nicht Partei sind; diese lesen den Direktchat nicht.</li><li>Hinweise auf Erwähnungen und neue Ankündigungen enthalten keinen Inhalt und werden nie per E-Mail verschickt.</li></ul>
+<p><strong>Fristen:</strong></p>
+<div class="table"><table>
+<thead><tr><th scope="col">Daten</th><th scope="col">Vorgesehene Grenze</th></tr></thead>
+<tbody>
+<tr><td>Nachrichten und Dateien, auch gemeldete</td><td>Saisonende plus 12 Monate; spätestens 90 Tage nach dem letzten Teamaustritt der Absenderin beim selben Verantwortlichen</td></tr>
+<tr><td>Derivate von Dateien</td><td>mit dem Original</td></tr>
+<tr><td>Terminchat</td><td>mit der Frist des Termins</td></tr>
+<tr><td>Lesebestätigungen</td><td>mit der Ankündigung; spätestens 90 Tage nach dem letzten Teamaustritt der lesenden Person</td></tr>
+<tr><td>Lesestände</td><td>mit dem Kanal; spätestens 90 Tage nach dem letzten Teamaustritt der Person</td></tr>
+<tr><td>Chat-Hinweise</td><td>30 Tage; sofort mit der Nachricht oder bei Stummschaltung des Kanals</td></tr>
+<tr><td>Meldungen</td><td>mit der Moderationsentscheidung oder der Nachricht, höchstens wie die Nachricht</td></tr>
+<tr><td>Moderations-Audit</td><td>90 Tage</td></tr>
+<tr><td>Prüfentscheidung zum Elternzugriff</td><td>solange ein Direktchat zu Team und Spielerin besteht, sonst Saisonende plus 12 Monate; spätestens mit dem Ende der Teammitgliedschaft</td></tr>
+</tbody></table></div>
+<p>Eine gelöschte Nachricht verschwindet sofort. Ihre Löschung wird im Löschregister vorgemerkt, damit sie nach einer Wiederherstellung nicht zurückkehrt.</p>
+<p><strong>Rechte:</strong> Absender können eigene Nachrichten bearbeiten und löschen. Freie Gruppen kann man verlassen, Systemkanäle innerhalb einer bestehenden Mitgliedschaft nicht; sie lassen sich stummschalten. Eine Auskunft enthält die eigenen Nachrichten mit Dateimetadaten, Gruppenzeiträume, Stummschaltungen, eigene Meldungen, Lesebestätigungen und Lesestände, Erwähnungen der Person, eigene Hinweise und Prüfentscheidungen zu eigenen oder aktiv verknüpften Profilen. Sie enthält keine fremden Texte und nicht, wer eine Nachricht gemeldet, die Person erwähnt oder ihre Ankündigung gelesen hat. Ist die Verarbeitung eines Profils eingeschränkt, sind die Nachrichten des zugehörigen Kontos für alle anderen unsichtbar.</p>
+<h3 id="13-2-aufgaben-und-automationen">13.2 Aufgaben und Automationen</h3>
+<p><strong>Zweck:</strong> Gemeinsame Aufgaben im Team verteilen und ihre Erledigung verfolgen, mit begrenzten Automationen wie der Trikotwäsche nach der Kapitäninnenwahl. Die schlanken Pilotaufgaben aus Abschnitt 2 bleiben davon unberührt.</p>
+<p><strong>Daten:</strong> Gemeinsame Aufgabe je Team und Saison mit Titel, Beschreibung, optionaler Fälligkeit (fester Zeitpunkt oder Abstand zu einem Termin), gemeinsamem Status (offen, übernommen, erledigt) und der Angabe, ob sie teamöffentlich ist; eine oder mehrere Zuweisungen an ein Benutzerkonto oder an ein Spielerinnenprofil mit der Verantwortung „Spielerin“, „Eltern“ oder „beide“; Antworten (übernommen, abgelehnt) und Zustandsverlauf mit handelnder Person und Zeitpunkt; Erstellerin. Dazu Vorlagen des Teams mit Titel, Beschreibung, Fälligkeitsregel, zwei Hinweisschaltern, Empfängerabweichung und höchstens einem Auslöser sowie ein Auslöse-Nachweis ohne Konto (Vorlage, Auslöser, Termin, Spielerin, Fehlergrund, Versuche).</p>
+<p><strong>Herkunft:</strong> Admins und Trainer erstellen Aufgaben und Vorlagen; Empfänger antworten selbst. Automationen legen Aufgaben aus vorhandenen Termin-, Kader- und Auszeichnungsdaten an, nur nach der festen Liste „Termin veröffentlicht“, „Turnier angelegt“, „Spielerin nominiert“ und „Kapitänin gewählt“. Empfänger bestimmt der Server bei jedem Aufruf aus aktuellen Rollen und Verknüpfungen; er speichert sie nicht.</p>
+<p><strong>Rechtsgrundlage (Entwurf):</strong> Für die Pilotaufgaben (P20) sind Art. 6 Abs. 1 lit. b und für die Zuweisung an Elternkonten lit. f vorgeschlagen; beides gilt nicht automatisch für die Ausbaustufe. <mark class="offen">[OFFEN: Rechtsgrundlage für gemeinsame Aufgaben und Automationen bestimmen]</mark></p>
+<p><strong>Wer sieht was:</strong> Admins und Trainer sehen alle Aufgaben ihres Teams und fehlgeschlagene Automationen. Zugewiesene sehen nur ihre eigenen Zuweisungen, nicht die anderer Empfänger derselben Aufgabe. Eine Aufgabe ist privat, bis Admin oder Trainer sie teamöffentlich machen. Dann sehen alle Konten mit nicht gesperrter Rolle im Team Titel, Beschreibung, Fälligkeit und gemeinsamen Status, aber keine Namen der Zugewiesenen und keine Ablehnungen. Vor jeder Zustellung und bei jedem Lesen prüft der Server Modulschalter, Aufgabenstatus und Empfängerschaft neu. Für Aufgabenhinweise gibt es keine E-Mail.</p>
+<p><strong>Fristen:</strong></p>
+<div class="table"><table>
+<thead><tr><th scope="col">Daten</th><th scope="col">Vorgesehene Grenze</th></tr></thead>
+<tbody>
+<tr><td>Aufgabe, Zuweisungen und Zustandsverlauf</td><td>Saisonende plus 12 Monate</td></tr>
+<tr><td>Zuweisung einer ausgetretenen Person</td><td>sofort: Kontozuweisung, sobald das Konto keine Rolle mehr im Team hat; Spielerinnenzuweisung mit dem Ende der Teammitgliedschaft</td></tr>
+<tr><td>Verweise auf Erstellerin, Übernehmende, Erledigende und Akteurin</td><td>spätestens 90 Tage nach dem letzten Teamaustritt beim selben Verantwortlichen; die Aufgabe behält ihren Stand</td></tr>
+<tr><td>Erinnerungsdaten</td><td>14 Tage nach dem Versand</td></tr>
+<tr><td>Auslöse-Nachweis</td><td>mit Termin, Spielerinnenprofil, Vorlage oder Saison</td></tr>
+</tbody></table></div>
+<p>Vorlagen gehören zum Team und gelten saisonübergreifend; Aufgaben werden nie in eine neue Saison übernommen.</p>
+<p><strong>Rechte:</strong> Eine Auskunft enthält die eigenen Kontozuweisungen und die Spielerinnenzuweisungen je exportiertem Kind und Team mit Titel, Beschreibung und Verlauf, ohne fremde handelnde Personen, sowie die eigenen Verlaufseinträge des Kontos.</p>
+<h3 id="13-3-mannschaftskasse">13.3 Mannschaftskasse</h3>
+<p><strong>Zweck:</strong> Ein einfaches, dauerhaft teambezogenes Kassenbuch. Ausgeschlossen sind Zahlungsabwicklung, Bankanbindung, vollständige Buchhaltung, individuelle Familienkonten und Offline-Buchungen.</p>
+<p><strong>Daten:</strong> Buchungen mit Art (Einnahme/Ausgabe), Betrag, Datum, Beschreibung, fester Kategorie (Spende, Turnier, Ausrüstung, Mannschaftsfeier, Sonstiges) und erfassender Person; Storno- und Ersatzbuchungen als verknüpfte neue Buchungen; optional ein privater Beleg als Foto (JPEG, PNG, WebP bis 5 MiB) oder PDF (bis 10 MiB). Dazu Kassenwartberechtigungen mit Vergabe- und Entzugsaudit, Ausnahmeaufbewahrungen mit rechtlichem Grund und Enddatum sowie ein Betreiberprotokoll des Modulschalters ohne natürliche Person.</p>
+<p><mark class="offen">[OFFEN: Umgang mit Personenangaben in Buchungsbeschreibungen und Belegen ist in den Quellen nicht geregelt]</mark></p>
+<p><strong>Herkunft:</strong> Kassenwarte erfassen Buchungen und Belege. Die Kassenwartberechtigung vergeben Admins.</p>
+<p><strong>Rechtsgrundlage (Entwurf):</strong> Die Kasse wird als Teil der Vereinsfinanzen und damit als steuerlich relevant behandelt (konservative Annahme); die Aufbewahrung richtet sich nach § 147 AO. <mark class="offen">[OFFEN: Rechtsgrundlage für Kassenführung und Aufbewahrung bestimmen; Fristen bestätigt der Steuerberater des Vereins im Gate #185]</mark></p>
+<p><strong>Wer sieht was:</strong> Buchungen und Belege lesen Trainer und Kassenwarte des Teams. Schreiben, Löschen und Ausnahmeaufbewahrungen sind Kassenwarten vorbehalten; Admins erhalten allein durch ihre Rolle keinen Zugriff. Eltern und Spielerinnen ohne Kassenwartberechtigung sehen die Kasse nicht. Die Berechtigung setzt eine aktuelle Teamrolle in genau diesem Team voraus und wirkt nicht in anderen Teams. Die Buchungsliste zeigt keine Identität der erfassenden Person, sondern „von dir“, „Teammitglied“ oder „ehemaliges Mitglied“; der Erfasser bleibt serverseitig gespeichert. Belege liegen in einem eigenen privaten Speicher und werden nur nach Rechteprüfung ausgeliefert. Buchungen jenseits ihrer regulären Frist, etwa wegen einer Ausnahmeaufbewahrung, sehen nur Kassenwarte; Trainer sehen dafür einen Sammelposten nur mit dem Nettobetrag. Ein Team mit aktiver Kasse wird erst archiviert, wenn der Saldo 0 ist; die Kasse eines archivierten Teams ist nur lesbar.</p>
+<p><strong>Fristen:</strong> Die Kasse folgt nicht den Sportdatenfristen.</p>
+<div class="table"><table>
+<thead><tr><th scope="col">Daten</th><th scope="col">Vorgesehene Grenze</th></tr></thead>
+<tbody>
+<tr><td>Buchungen</td><td>10 Jahre ab Ende des Kalenderjahres der Buchung</td></tr>
+<tr><td>Belege</td><td>8 Jahre ab Ende des Kalenderjahres des Belegs</td></tr>
+<tr><td>Verknüpfte Buchungen (Original, Storno, Ersatz)</td><td>gemeinsam, sobald die späteste Frist der Kette und ihrer Belege abgelaufen ist</td></tr>
+<tr><td>Übertrag (Systembuchung ohne Person über den Nettobetrag der gelöschten Buchungen)</td><td>wie eine Buchung, ab dem Stichtag des Löschlaufs</td></tr>
+<tr><td>Ausnahmeaufbewahrung</td><td>höchstens ein Jahr, verlängerbar; ihr Datensatz 90 Tage nach Ende oder Aufhebung</td></tr>
+<tr><td>Erfasserbezug einer Buchung</td><td>30 Tage nach Ende der letzten Teamrolle des Erfassers im Team oder mit Löschung seines Kontos; danach „ehemaliges Mitglied“</td></tr>
+<tr><td>Kassenwartberechtigung</td><td>mit Entzug, letzter Teamrolle im Team oder Kontolöschung; Audit 90 Tage, eine einzelne Auditzeile höchstens für die Dauer einer befristeten Ausnahme</td></tr>
+<tr><td>Protokoll des Modulschalters</td><td>solange der Verantwortliche besteht</td></tr>
+</tbody></table></div>
+<p>Die Löschung eines Belegs wird im Löschregister vorgemerkt, damit sie nach einer Wiederherstellung erneut wirkt.</p>
+<p><strong>Rechte:</strong> Eine Auskunft enthält die eigenen Kassenwartberechtigungen, die eigenen Zeilen im Berechtigungsaudit und die selbst erfassten Buchungen; andere Personen erscheinen nur als Rolle. <mark class="offen">[OFFEN: Verhältnis von Lösch- und Widerspruchsrechten zur steuerlichen Aufbewahrung in den Hinweisen formulieren]</mark></p>
+<h3 id="13-4-leistungsstatistik">13.4 Leistungsstatistik</h3>
+<p><strong>Zweck:</strong> Teaminterne sportliche Entwicklung und Rückmeldung an die eigene Familie. Admins oder Trainer schalten das Modul je Team mit dokumentiertem Zweck ein; zusätzlich muss der technische Betreiber den Betriebsschalter einschalten.</p>
+<p><strong>Daten:</strong> Je Spielerin und Spiel oder Turnier: Tore, Assists und Einsatz (ja/nein, ohne Minuten); bei Turnieren nur Gesamtwerte des Termins. Dazu die Bestätigung der Vollständigkeit beim Terminabschluss, eine Korrekturhistorie mit alten und neuen Werten, handelnder Person, Zeitpunkt und Korrekturgrund sowie ein Schaltprotokoll des Teams (Zustand, Zweck, handelnde Person, Zeitpunkt). Keine Noten, medizinischen Werte, Prognosen, öffentlichen Ranglisten oder weiteren Metriken.</p>
+<p><strong>Herkunft:</strong> Admins und Trainer erfassen die Werte bei Spielen und Turnieren, nur für wirksam nominierte Spielerinnen mit Anwesenheit „teilgenommen“.</p>
+<p><strong>Rechtsgrundlage (Entwurf):</strong> Mitgliedschaft nach Art. 6 Abs. 1 lit. b DSGVO; der Verantwortliche bestätigt sie im Gate #186 endgültig. <mark class="offen">[OFFEN: Bestätigung der Rechtsgrundlage durch den Verein]</mark></p>
+<p><strong>Wer sieht was:</strong> Eine aktivierte Spielerin sieht ihre eigenen Werte, ein Elternteil die Werte der Kinder, mit denen es in diesem Team aktiv verknüpft ist. Admins und Trainer sehen die Werte der Spielerinnen ihres Teams. Es gibt keine Rangliste, Platzierung, Teamsumme oder Vergleiche für Familien und keinen Listenexport in der App. Gezählt werden nur abgeschlossene, als vollständig bestätigte Termine. Ein Ausschalten stoppt die Erfassung und blendet die Werte aus; es löscht sie nicht sofort.</p>
+<p><strong>Fristen:</strong></p>
+<div class="table"><table>
+<thead><tr><th scope="col">Daten</th><th scope="col">Vorgesehene Grenze</th></tr></thead>
+<tbody>
+<tr><td>Werte, Korrekturhistorie und Bestätigungen</td><td>wie Sportdaten: Saisonende plus 12 Monate; spätestens 90 Tage nach dem letzten Teamaustritt beim selben Verantwortlichen; sofort mit Termin oder Profil</td></tr>
+<tr><td>Handelnde Person an Werten, Bestätigungen und Korrekturen</td><td>90 Tage nach der Handlung oder mit der Löschung des Kontos</td></tr>
+<tr><td>Schaltprotokoll</td><td>Zustand, Zweck und Zeitpunkt, solange das Team Leistungsdaten hat oder der Schalter an ist; handelnde Person 90 Tage</td></tr>
+</tbody></table></div>
+<p>Summen entstehen nur beim Lesen; ein dauerhaftes Karrierearchiv entsteht nicht.</p>
+<p><strong>Rechte:</strong> Eine Auskunft enthält die gespeicherten Werte und Korrekturen der exportierten Spielerinnen in ihren exportierten Teams sowie eigene Handlungen als Trainer oder Admin nur mit Team, Termin und Zeitpunkt, ohne Werte anderer Spielerinnen.</p>
+<footer>Gelb markierte Stellen <mark class="offen">[OFFEN: …]</mark> trägt der Verein vor einer Veröffentlichung ein. Diese Seite lädt keine externen Ressourcen und setzt kein Tracking ein.</footer>
+</main>
+</body>
+</html>
